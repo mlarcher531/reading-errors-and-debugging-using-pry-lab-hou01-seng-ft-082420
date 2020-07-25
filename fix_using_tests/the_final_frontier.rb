@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def star_date
   (rand(100000) + 400000) / 10.0
@@ -12,4 +12,3 @@ def engage
   date = #{star_date}
   puts state_log(date)
 end
-binding.pry
